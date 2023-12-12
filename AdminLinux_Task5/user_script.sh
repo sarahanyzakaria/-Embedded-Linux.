@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo useradd Sara_Hany
+sudo adduser --force-badname Sara_Hany
 sudo groupadd Zakaria
 sudo usermod -aG Zakaria Sara_Hany
 # checking on user and group
